@@ -12,5 +12,7 @@ public class Movie {
     private List<Actor> actors;
     private int publishingDate;
 
-
+    public String toString() {
+        return title + " " + genre + " " + director + " " + actors +" " + publishingDate ;
+    }
 }
