@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fb6d569-0ff6-427e-8672-7568e11989af" name="Changes" comment="26-/08">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4fb6d569-0ff6-427e-8672-7568e11989af" name="Changes" comment="29/08">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Helpers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="26-/08" />
-    <option name="LAST_COMMIT_MESSAGE" value="26-/08" />
+    <MESSAGE value="29/08" />
+    <option name="LAST_COMMIT_MESSAGE" value="29/08" />
   </component>
 </project>

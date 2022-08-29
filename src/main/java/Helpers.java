@@ -21,7 +21,7 @@ public class Helpers {
         int userInputYear2 = Helpers.getNumberFromUser();
         for (Movie m : movies) {
             if (m.getPublishingDate() > userInputYear1 && m.getPublishingDate() < userInputYear2) {
-                System.out.println("Your movie published between these dates are: "
+                System.out.println("Your movie published between these dates is: "
                         + "Title: " + m.getTitle() + ", "
                         + "Director: " + m.getDirector().getName() + " " + m.getDirector().getSurname() + ", "
                         + "Genre: " + m.getGenre() + ", "
@@ -48,7 +48,7 @@ public class Helpers {
 
         System.out.println("Please provide actor surname:");
         String userInputActorSurname = scanner.next();
-        System.out.println("Your movie(s) for given actor: ");
+        System.out.println("Your movie for given actor: ");
 
         for (Movie m : movies) {
             for (int i = 0; i < movies.get(i).getActors().size(); i++) {
