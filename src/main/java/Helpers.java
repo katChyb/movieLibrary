@@ -41,14 +41,14 @@ public class Helpers {
 
     public static void getMovieByActorNameSurname(List<Movie> movies) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the name and surname of the actor to display names of the movies he played in:");
+        System.out.println("Enter the name and surname of the actor/actress to display names of the movies he/she played in:");
 
-        System.out.println("Please provide actor name:");
+        System.out.println("Please provide name:");
         String userInputActorName = scanner.next();
 
-        System.out.println("Please provide actor surname:");
+        System.out.println("Please provide surname:");
         String userInputActorSurname = scanner.next();
-        System.out.println("Your movie for given actor: ");
+        System.out.println("Your movie for given actor/actress: ");
 
         for (Movie m : movies) {
             for (int i = 0; i < movies.get(i).getActors().size(); i++) {
