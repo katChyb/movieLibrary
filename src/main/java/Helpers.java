@@ -27,11 +27,10 @@ public class Helpers {
                         + "Genre: " + m.getGenre() + ", "
                         + "Actors: " + m.getActors().toString() + ", "
                         + "Publishing Date: " + m.getPublishingDate());
-            } else {
-                System.out.println("Sorry, we didn't found any matches, please try again.");
+            }
             }
         }
-    }
+
 
     public static void getRandomMovie(List<Movie> movies) {
         System.out.println("Random movie picked for you is: ");
@@ -57,10 +56,8 @@ public class Helpers {
                             "Title: " + m.getTitle() + ", "
                                     + "Director: " + m.getDirector().getName() + " " + m.getDirector().getSurname() + ", "
                                     + "Genre: " + m.getGenre() + ", "
-                                    + "Actors: " + m.getActors().get(i).getName() + " " + m.getActors().get(i).getSurname() + ", "
+                                    + "Actors: " + m.getActors() + ", "
                                     + "Publishing Date: " + m.getPublishingDate());
-                } else {
-                    System.out.println("Sorry, we didn't found any matches, please try again.");
                 }
             }
         }

@@ -13,6 +13,7 @@ public class Movie {
     private int publishingDate;
 
     public String toString() {
-        return title + " " + genre + " " + director + " " + actors +" " + publishingDate ;
+        return "Title: " + title + ", " + "Genre: " + genre + ", " + "Director: " + director + ", "
+                                       + "Actors: " + getActors() + ", " + "Publishing Date: " + publishingDate;
     }
 }
