@@ -39,8 +39,8 @@ public class Helpers {
                         + "Actors: " + m.getActors().toString() + ", "
                         + "Publishing Date: " + m.getPublishingDate());
             }
-            }
         }
+    }
 
 
     public static void getRandomMovie(List<Movie> movies) {
@@ -64,7 +64,7 @@ public class Helpers {
             for (int i = 0; i < movies.get(i).getActors().size(); i++) {
                 if (m.getActors().get(i).getName().equals(userInputActorName) && m.getActors().get(i).getSurname().equals(userInputActorSurname)) {
                     System.out.println(
-                                      "Title: " + m.getTitle() + ", "
+                            "Title: " + m.getTitle() + ", "
                                     + "Director: " + m.getDirector().getName() + " " + m.getDirector().getSurname() + ", "
                                     + "Genre: " + m.getGenre() + ", "
                                     + "Actors: " + m.getActors() + ", "

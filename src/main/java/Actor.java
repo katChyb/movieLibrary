@@ -8,7 +8,7 @@ public class Actor {
     private String surname;
 
     public String toString() {
-        return name + " " + surname ;
+        return name + " " + surname;
     }
 
     static Actor actorFord = new Actor("Harrison", "Ford");

@@ -9,7 +9,7 @@ public class Director {
     private String surname;
 
     public String toString() {
-        return name + " " + surname ;
+        return name + " " + surname;
     }
 
     static Director directorChan = new Director("Jackie", "Chan");
