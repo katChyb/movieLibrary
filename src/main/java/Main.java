@@ -11,7 +11,7 @@ public class Main {
         movies.add(new Movie("Armor of god", "comedy", Director.directorChan,
                 new ArrayList<>(asList(Actor.actorChan, Actor.actorKwan, Actor.actorLadalski)), 1986));
         movies.add(new Movie("Blade Runner", "si-fi", Director.directorScott,
-                new ArrayList<>(asList(Actor.actorFord, Actor.actorHauer, Actor.actorFord)), 1982));
+                new ArrayList<>(asList(Actor.actorFord, Actor.actorHauer, Actor.actorYoung)), 1982));
         movies.add(new Movie("Blade Runner 2049", "si-fi", Director.directorVilleneuve,
                 new ArrayList<>(asList(Actor.actorFord, Actor.actorGosling, Actor.actorArmas)), 2017));
         movies.add(new Movie("Dune", "si-fi", Director.directorVilleneuve,
