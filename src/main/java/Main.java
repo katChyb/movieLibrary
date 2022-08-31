@@ -8,26 +8,22 @@ public class Main {
     public static void main(String[] args) {
 
         List<Movie> movies = new ArrayList<>();
-        movies.add(new Movie("Armor of god", "comedy", MovieLibrary.directorChan,
-                new ArrayList<>(asList(MovieLibrary.actorChan, MovieLibrary.actorKwan, MovieLibrary.actorLadalski)), 1986));
-        movies.add(new Movie("Blade Runner", "si-fi", MovieLibrary.directorScott,
-                new ArrayList<>(asList(MovieLibrary.actorFord, MovieLibrary.actorHauer, MovieLibrary.actorFord)), 1982));
-        movies.add(new Movie("Blade Runner 2049", "si-fi", MovieLibrary.directorVilleneuve,
-                new ArrayList<>(asList(MovieLibrary.actorFord, MovieLibrary.actorGosling, MovieLibrary.actorArmas)), 2017));
-        movies.add(new Movie("Dune", "si-fi", MovieLibrary.directorVilleneuve,
-                new ArrayList<>(asList(MovieLibrary.actorChalamet, MovieLibrary.actorFerguson, MovieLibrary.actorIsaac)), 2021));
-        movies.add(new Movie("Ex Machina", "si-fi", MovieLibrary.directorGarland,
-                new ArrayList<>(asList(MovieLibrary.actorIsaac, MovieLibrary.actorGleeson, MovieLibrary.actorVikander)), 2015));
+        movies.add(new Movie("Armor of god", "comedy", Director.directorChan,
+                new ArrayList<>(asList(Actor.actorChan, Actor.actorKwan, Actor.actorLadalski)), 1986));
+        movies.add(new Movie("Blade Runner", "si-fi", Director.directorScott,
+                new ArrayList<>(asList(Actor.actorFord, Actor.actorHauer, Actor.actorFord)), 1982));
+        movies.add(new Movie("Blade Runner 2049", "si-fi", Director.directorVilleneuve,
+                new ArrayList<>(asList(Actor.actorFord, Actor.actorGosling, Actor.actorArmas)), 2017));
+        movies.add(new Movie("Dune", "si-fi", Director.directorVilleneuve,
+                new ArrayList<>(asList(Actor.actorChalamet, Actor.actorFerguson, Actor.actorIsaac)), 2021));
+        movies.add(new Movie("Ex Machina", "si-fi", Director.directorGarland,
+                new ArrayList<>(asList(Actor.actorIsaac, Actor.actorGleeson, Actor.actorVikander)), 2015));
 
 
         int action = 0;
         while (action != 4) {
-            System.out.println(" ");
-            System.out.println("Welcome in Movie Library program, select your action:");
-            System.out.println("1 - Enter two years of film releases to display the names of movies published between these dates:");
-            System.out.println("2 - View all information about random movie");
-            System.out.println("3 - Enter the name and surname of the actor to display names of the movies he played in");
-            System.out.println("4 - End program");
+
+            Helpers.displayMenu();
 
             action = Helpers.getNumberFromUser();
             switch (action) {

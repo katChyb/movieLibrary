@@ -4,6 +4,17 @@ import java.util.Scanner;
 
 public class Helpers {
 
+
+    public static void displayMenu() {
+        System.out.println(" ");
+        System.out.println("Welcome in Movie Library program, select your action:");
+        System.out.println("1 - Enter two years of film releases to display the names of movies published between these dates:");
+        System.out.println("2 - View all information about random movie");
+        System.out.println("3 - Enter the name and surname of the actor to display names of the movies he played in");
+        System.out.println("4 - End program");
+        System.out.println(" ");
+    }
+
     public static int getNumberFromUser() {
         Scanner scanner = new Scanner(System.in);
         while (!scanner.hasNextInt()) {
